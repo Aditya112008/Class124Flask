@@ -1,0 +1,77 @@
+Flask is a framework 
+Framework is an additional layer of user written code on top of an already existing language,
+So that the language can be used for application specific cases
+
+Flask is a framework written in python used for web development. It has a lot of methods and functionalities 
+
+Setup a project for Flask
+1) Python should be installed 
+2) Pip should be installed
+3) virtual environment 
+
+A virtual environment is used to create an isolated environment for your projects.
+Your projects can have its set of dependencies regardless of what other projects might need 
+
+How to install virtual environment :
+1) Go to the current folder 
+2) Open cmd
+Creates a virtual environment
+D:\Aditya\Whitehat Jr\Module 3\124\flask>python -m venv venv
+
+Activates the installed virtual environment 
+D:\Aditya\Whitehat Jr\Module 3\124\flask>venv\Scripts\activate.bat
+
+Install flask 
+(venv) D:\Aditya\Whitehat Jr\Module 3\124\flask>pip install flask
+
+Download and Install Postman App 
+https://www.postman.com/downloads/
+
+=========================================================================
+
+All API's use an http method 
+GET is one method
+GET is used to request data from a specified resource 
+When you access a websites page your browser makes a GET request to your API (any API) 
+and API returns the front end that is displayed in the browser screen 
+
+
+All the API's that we create in flask by default use GET request 
+If we start our hello_world server and go to localhost: 5000, 
+we can see in the terminal that the browser made a GET request on the server/API 
+
+============================================================================
+
+Post Method is used to send data to the server to create/ update a resource 
+
+Example : A user wants to sign up or change password (that would be a post request)
+
+============================================================================
+
+Put Method is used to send data to a server to create or update a resource 
+The basic difference between Put And Post is that a post rewuest is when you create mutiple copies of the same resource
+
+A Put request on other hand you want to create inly one copy of the resource 
+Example : Signing Up a unique user
+
+=============================================================================
+
+Delete Method is used to Delete a resource
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
